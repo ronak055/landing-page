@@ -1,0 +1,103 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Thank You Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+   
+<style>
+    body{
+        background: url('images/slides\ \(1\).jpeg');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size:  100% 100%;
+    }
+</style>  
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-59PHV5WK');</script>
+  <!-- End Google Tag Manager -->
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59PHV5WK"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+  <div class="container-h">
+    <header class="site-header">
+        <div class="header__content--flow">
+            <div class="header-content--left">
+                <a href="index.html" class="brand-logo">
+                  <img class="header-icon" src="images/dash-h.png" alt="dash">
+                   <h2 class="header-heading">77 CrossRoad</h2>
+                    <span class="logo-text"></span>
+                </a>
+                <button class="nav-toggle" onclick="openModal();">
+                    <span class="toggle--icon"></span>
+                </button>
+            </div>
+            <div class="header-content--right">
+                <nav class="header-nav" role="navigation">
+                    <ul class="nav__list" aria-expanded="false">
+                        <li class="list-item">
+                            <a class="nav__link" href="index.html">Home</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="nav__link" href="#price-overview">Price overview</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="nav__link" href="#Gallery">Gallery</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="nav__link" href="#amenities">Amenities</a>
+                        </li>
+                        <li class="list-item">
+                          <a class="nav__link" href="#virtual-tour">Virtual Tour</a>
+                      </li>
+                        <li class="list-item">
+                            <a class="nav__link" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+</div>
+
+    <div class="flex items-center justify-center h-screen">
+      <div class="p-1 rounded shadow-lg bg-gradient-to-r from-purple-500 via-green-500 to-blue-500">
+        <div class="flex flex-col items-center p-4 space-y-2 bg-white">
+          <svg xmlns="http://www.w3.org/2000/svg" class="text-green-600 w-28 h-28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <h1 class="text-4xl font-bold ">Thank You !</h1>
+          <p><b id="param"></b> We will get in touch with you soon... </p>
+          <a
+            class="inline-flex items-center px-4 py-2 text-black bg-green-400 border border-indigo-600 rounded rounded-full hover:bg-green-400 focus:outline-none focus:ring">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 mr-2" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+            </svg>
+            <span onclick="homie();" class="text-sm font-medium">
+              Home
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+</body>
+<script>
+    function homie(){
+        location.href="index.html";
+    }
+</script>
+</html>
